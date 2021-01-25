@@ -4,6 +4,6 @@ function suma(NO1, NO2) {
 }
 
  const suma2 = (NO1, NO2) => {
-     let s1= parseInt(NO1) + parseInt(NO2);
-     alert(s1);
+     let res= parseInt(NO1) + parseInt(NO2);
+     alert(res);
     }
