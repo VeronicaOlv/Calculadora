@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script type="text/javascript" src="/Users/Vero Olvera/Documents/JSC/suma.js"></script>
+    <script type="text/javascript" src="/Users/Vero Olvera/Documents/JSC/resta.js"></script>
+    <script type="text/javascript" src="/Users/Vero Olvera/Documents/JSC/mult.js"></script>
+    <script type="text/javascript" src="/Users/Vero Olvera/Documents/JSC/division.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+</head>
+<body>
+    <h1>CALCULADORA</h1>
+    <div>
+        <P>Suma</P>
+        <input id="n1" type="text" placeholder="No.1"></input>
+        <input id="n2" type="text" placeholder="No. 2"></input>
+        <input onclick="suma2(document.getElementById('n1').value,document.getElementById('n2').value)" type="button" value="Sumar">
+        <P>Resta</P>
+        <input id="n3" type="text" placeholder="No.1"></input>
+        <input id="n4" type="text" placeholder="No. 2"></input>
+        <input onclick="resta2(document.getElementById('n3').value,document.getElementById('n4').value)" type="button" value="Resta">
+      
+        <p>Multiplicacion</p>
+        <input id="n5" type="text" placeholder="No.1"></input>
+        <input id="n6" type="text" placeholder="No. 2"></input>
+        <input onclick="mult2(document.getElementById('n5').value,document.getElementById('n6').value)" type="button" value="Multiplicar">
+        <p>Division</p>
+        <input id="n7" type="text" placeholder="No.1"></input>
+        <input id="n8" type="text" placeholder="No. 2"></input>
+        <input onclick="div2(document.getElementById('n7').value,document.getElementById('n8').value)" type="button" value="Dividir">
+        
+    </div>
+</body>
+</html>
